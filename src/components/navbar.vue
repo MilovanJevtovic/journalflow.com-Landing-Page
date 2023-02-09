@@ -1,7 +1,7 @@
 <template>
     <main>
       <div class="icon-name">
-        <img src="./components/icons/logo-white.png">
+        <img src="./icons/logo-white.png">
         <h1>JournalFlow</h1>
       </div>
       <div>
@@ -17,7 +17,7 @@
   <script>
 
   export default{
-    name:'Navbar'
+    name:'Navbar',
   }
   
   </script>

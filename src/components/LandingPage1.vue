@@ -41,7 +41,7 @@
 
 
     main{
-        height: 800px;
+        height: 720px;
         background-color: #0B182B;
     }
 
@@ -112,7 +112,7 @@
     p{
         margin-top: 30px;
         color: #9EA0A6;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     span{

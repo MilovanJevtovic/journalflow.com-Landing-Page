@@ -1,0 +1,89 @@
+<template>
+    <div class="wrap">
+        <div class="up">
+            <h1 style="font-size: 65px;">✍️</h1>
+            <h1>Write from Anywhere</h1>
+            <h2>Just like chatting with a friend</h2>
+        </div>
+        <div class="down">
+            <div class="left">
+                <div>
+                    <h3>From Messaging Apps</h3>
+                    <p>No new app needed. JournalFlow currently supports Telegram, Facebook Messenger, Email. Learn <span>how JournalFlow works</span>.</p>
+                </div>
+                <div>
+                    <h3>On Any Platform</h3>
+                    <p>Wanna journal on your iPhone / Android / Mac / PC? No problem. If your messaging app has an app on that platform, you can write a journal on that.</p>
+                </div>
+                <div>
+                    <h3>Unleash the Power</h3>
+                    <p>Don't limit by text. You can add photos, locations, moods in your journal. Audio and video support are coming soon.</p>
+                </div>
+            </div>
+                <div class="right" id="right">
+                    <img src="./images/screenshot-email.png" alt="">
+                </div>
+            </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name:'LandingPage2'
+    }
+</script>
+
+<style scoped>
+    .wrap{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .up{
+        text-align: center;
+    }
+
+    img{
+        width: 300px;
+        border: 7px solid black;
+        border-radius: 30px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 22px;
+        color: #9EA0A6;
+        margin: 20px 0px;
+    }
+
+    .down{
+        display: flex;
+        margin: 40px 0px;
+    }
+
+    .left{
+        padding: 0px 120px;
+    }
+
+    .left div{
+        margin: 40px 0px;
+    }
+
+    p{
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    span{
+        color: blue;
+        cursor: pointer;
+    }
+
+    span:hover{
+        text-decoration: underline;
+    }
+
+</style>

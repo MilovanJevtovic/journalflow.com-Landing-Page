@@ -1,15 +1,17 @@
 <template>
     <main>
-      <div class="icon-name">
-        <img src="./icons/logo-white.png">
-        <h1>JournalFlow</h1>
-      </div>
-      <div>
-        <button>Features</button>
-        <button>Blog</button>
-        <button>Pricing</button>
-        <button>Support</button>
-        <button>Login</button>
+      <div class="wrap">
+        <div class="icon-name">
+          <img src="./icons/logo-white.png">
+          <h1>JournalFlow</h1>
+        </div>
+        <div>
+          <button>Features</button>
+          <button>Blog</button>
+          <button>Pricing</button>
+          <button>Support</button>
+          <button>Login</button>
+        </div>
       </div>
     </main>
   </template>
@@ -22,12 +24,20 @@
   
   </script>
   
-  <style>
+  <style scoped>
   main{
     background-color: #0B182B;
+    height: 80px;
+  }
+
+  .wrap{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px;
+    height: 80px;
+    max-width: 960px;
+    margin: 0 auto;
   }
   
   .icon-name{
@@ -37,17 +47,18 @@
   }
   
   h1{
-    font-size: 40px;
+    font-size: 24px;
     color: white;
-    font-weight: 100;
+    font-weight: 500;
   }
   
   button{
     background-color: transparent;
     border: none;
     color: #9EA0A6;
-    font-size: 20px;
-    margin: 0px 15px;
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 30px;
     cursor: pointer;
     transition: color 0.15s, text-decoration 0.15s;
   }
@@ -59,8 +70,8 @@
   
   
   img{
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     margin-right: 6px;
   }
   

@@ -74,6 +74,12 @@
     height: 32px;
     margin-right: 6px;
   }
+
+  @media (max-width: 700px) {
+    button{
+      display: none;
+    }
+  }
   
   
   </style>

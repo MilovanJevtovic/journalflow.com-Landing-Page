@@ -10,9 +10,9 @@
                 <div class="bottom">
                     <h2>Try JournalFlow Free with</h2>
                     <div class="buttons">
-                    <button><img src="./icons/telegram.png">Telegram</button>
-                    <button><img src="./icons/messenger.svg">Facebook Messenger</button>
-                    <button><img src="./icons/gmail.png">Email</button>
+                        <button><img src="./icons/telegram.png">Telegram</button>
+                        <button><img src="./icons/messenger.svg">Facebook Messenger</button>
+                        <button><img src="./icons/gmail.png">Email</button>
                     </div>
                     <p>Whatsapp, and Line and more app support is coming soon. <span>Get notified</span>.</p>
                 </div>
@@ -85,6 +85,7 @@
 
     .buttons{
         display: flex;
+        flex-direction: row;
     }
 
     button{
@@ -195,4 +196,24 @@
         100%{opacity: 1; transform: translateY(0px);}
     }
 
+
+    @media (max-width: 700px) {
+        
+    ul{
+        display: none;
+    }
+
+    .buttons{
+        display: flex;
+        
+    }
+    button{
+        justify-content: center;
+    }
+
+    .bottom p{
+        display: none;
+    }
+    
+    }
 </style>

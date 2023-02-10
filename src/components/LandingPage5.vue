@@ -93,4 +93,14 @@
         text-decoration: underline;
     }
 
+    @media (max-width: 700px) {
+        .down{
+            display: flex;
+            flex-direction: column;
+        }
+        .right{
+            text-align: center;
+        }
+      }
+
 </style>

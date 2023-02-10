@@ -76,4 +76,21 @@ p{
     font-size: 12px;
 }
 
+@media (max-width: 700px) {
+   
+    .socials{
+        display: none;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrap{
+        justify-content: center;
+    }
+
+  }
+
 </style>

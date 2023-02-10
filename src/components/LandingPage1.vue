@@ -39,6 +39,7 @@
 
 <style scoped>
 
+
     main{
         height: 800px;
         background-color: #0B182B;
@@ -137,7 +138,25 @@
         list-style: none;
         padding: 20px 20px;
         font-weight: 100;
+        opacity: 0;
+        animation-name: slideInLeft;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
     }
+
+    li:nth-child(1) {
+        animation-delay: 1s;
+   }
+    li:nth-child(2) {
+        animation-delay: 2s;
+   }
+    li:nth-child(3) {
+        animation-delay: 3s;
+   }
+    li:nth-child(4) {
+        animation-delay: 4s;
+   }
+
 
     .li1{
         position: absolute;
@@ -169,6 +188,11 @@
         border-radius: 30px 30px 30px 0px;
         top: 330px;
         right: 0px;
+    }
+
+    @keyframes slideInLeft {
+        0%{opacity: 0; transform: translateY(100px);}
+        100%{opacity: 1; transform: translateY(0px);}
     }
 
 </style>

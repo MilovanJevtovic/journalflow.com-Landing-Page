@@ -2,27 +2,23 @@
     <main>
     <div class="wrap">
         <div class="up">
-            <h1 style="font-size: 65px;">✍️</h1>
-            <h1>Write from Anywhere</h1>
-            <h2>Just like chatting with a friend</h2>
+            <h1 style="font-size: 65px;">😆</h1>
+            <h1>Track Your Mood</h1>
+            <h2>Express with an emoji</h2>
         </div>
         <div class="down">
             <div class="left">
                 <div>
-                    <h3>From Messaging Apps</h3>
-                    <p>No new app needed. JournalFlow currently supports Telegram, Facebook Messenger, Email. Learn <span>how JournalFlow works</span>.</p>
+                    <h3>Remember the mood of the day</h3>
+                    <p>It’s simple. Just send an emoji in chat or choose one on the web app. It also can be used to track weather, food, exercise, etc.</p>
                 </div>
                 <div>
-                    <h3>On Any Platform</h3>
-                    <p>Wanna journal on your iPhone / Android / Mac / PC? No problem. If your messaging app has an app on that platform, you can write a journal on that.</p>
-                </div>
-                <div>
-                    <h3>Unleash the Power</h3>
-                    <p>Don't limit by text. You can add photos, locations, moods in your journal. Audio and video support are coming soon.</p>
+                    <h3>Mood calendar</h3>
+                    <p>All your moods will be organized into a calendar. It's easy to glance the trends of your life.</p>
                 </div>
             </div>
                 <div class="right" id="right">
-                    <img src="./images/screenshot-email.png" alt="">
+                    <img src="./images/screenshot-mood.png" alt="">
                 </div>
             </div>
     </div>
@@ -31,14 +27,15 @@
 
 <script>
     export default {
-        name:'LandingPage2'
+        name:'LandingPage3'
     }
 </script>
 
 <style scoped>
 
     main{
-        padding-bottom: 10px;
+        background-color: #F3F5F7;
+        padding-bottom: 40px;
     }
     .wrap{
         max-width: 960px;
@@ -51,7 +48,7 @@
 
     img{
         width: 300px;
-        border: 7px solid black;
+        border: 7px solid white;
         border-radius: 30px;
     }
 

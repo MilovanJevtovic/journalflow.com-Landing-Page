@@ -2,27 +2,27 @@
     <main>
     <div class="wrap">
         <div class="up">
-            <h1 style="font-size: 65px;">✍️</h1>
-            <h1>Write from Anywhere</h1>
-            <h2>Just like chatting with a friend</h2>
+            <h1 style="font-size: 65px;">📱</h1>
+            <h1>Manage in One Place</h1>
+            <h2>on journalflow.com</h2>
         </div>
         <div class="down">
             <div class="left">
                 <div>
-                    <h3>From Messaging Apps</h3>
-                    <p>No new app needed. JournalFlow currently supports Telegram, Facebook Messenger, Email. Learn <span>how JournalFlow works</span>.</p>
+                    <h3>Manage journals</h3>
+                    <p>You can list / view / edit / delete journals on journalflow.com.</p>
                 </div>
                 <div>
-                    <h3>On Any Platform</h3>
-                    <p>Wanna journal on your iPhone / Android / Mac / PC? No problem. If your messaging app has an app on that platform, you can write a journal on that.</p>
+                    <h3>Write different day entry</h3>
+                    <p>If someday's journal is forgotten, don't worry. You can fix it on journalflow.com</p>
                 </div>
                 <div>
-                    <h3>Unleash the Power</h3>
-                    <p>Don't limit by text. You can add photos, locations, moods in your journal. Audio and video support are coming soon.</p>
+                    <h3>Analytics</h3>
+                    <p>The statistic about your journal will help you know yourself better, even build new habits.</p>
                 </div>
             </div>
                 <div class="right" id="right">
-                    <img src="./images/screenshot-email.png" alt="">
+                    <img src="./images/screenshot-account.png" alt="">
                 </div>
             </div>
     </div>
@@ -31,14 +31,15 @@
 
 <script>
     export default {
-        name:'LandingPage2'
+        name:'LandingPage5'
     }
 </script>
 
 <style scoped>
 
     main{
-        padding-bottom: 10px;
+        background-color: #F3F5F7;
+        padding-bottom: 40px;
     }
     .wrap{
         max-width: 960px;
@@ -51,7 +52,7 @@
 
     img{
         width: 300px;
-        border: 7px solid black;
+        border: 7px solid white;
         border-radius: 30px;
     }
 

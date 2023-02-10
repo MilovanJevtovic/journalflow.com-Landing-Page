@@ -2,27 +2,23 @@
     <main>
     <div class="wrap">
         <div class="up">
-            <h1 style="font-size: 65px;">✍️</h1>
-            <h1>Write from Anywhere</h1>
-            <h2>Just like chatting with a friend</h2>
+            <h1 style="font-size: 65px;">⏳</h1>
+            <h1>Time Machine</h1>
+            <h2>Bring back your best memories</h2>
         </div>
         <div class="down">
             <div class="left">
                 <div>
-                    <h3>From Messaging Apps</h3>
-                    <p>No new app needed. JournalFlow currently supports Telegram, Facebook Messenger, Email. Learn <span>how JournalFlow works</span>.</p>
+                    <h3>Look back</h3>
+                    <p>You can use our web app to view all your journals. It’s a fun way to remind yourself what happened in the past, and how far you’ve come.</p>
                 </div>
                 <div>
-                    <h3>On Any Platform</h3>
-                    <p>Wanna journal on your iPhone / Android / Mac / PC? No problem. If your messaging app has an app on that platform, you can write a journal on that.</p>
-                </div>
-                <div>
-                    <h3>Unleash the Power</h3>
-                    <p>Don't limit by text. You can add photos, locations, moods in your journal. Audio and video support are coming soon.</p>
+                    <h3>Smart reminder</h3>
+                    <p>JournalFlow will remind you these memories in a smart way, like an anniversary.</p>
                 </div>
             </div>
                 <div class="right" id="right">
-                    <img src="./images/screenshot-email.png" alt="">
+                    <img src="./images/screenshot-moments.png" alt="">
                 </div>
             </div>
     </div>
@@ -31,7 +27,7 @@
 
 <script>
     export default {
-        name:'LandingPage2'
+        name:'LandingPage4'
     }
 </script>
 

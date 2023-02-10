@@ -6,6 +6,7 @@
   <LandingPage4 />
   <LandingPage5 />
   <LandingPage6 />
+  <Footer />
 </template>
 
 <script>
@@ -16,6 +17,7 @@
   import LandingPage4 from "./components/LandingPage4.vue";
   import LandingPage5 from "./components/LandingPage5.vue";
   import LandingPage6 from "./components/LandingPage6.vue";
+  import Footer from "./components/Footer.vue";
   
 
   export default{
@@ -27,6 +29,7 @@
       LandingPage4,
       LandingPage5,
       LandingPage6,
+      Footer,
     }
   }
 </script>

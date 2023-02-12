@@ -74,4 +74,26 @@ button:hover{
     1%{opacity:1;}
 }
 
+@media (max-width: 700px) {
+    
+    img{
+        height: 36px;
+        width: 36px;
+        margin: 0px 10px;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    .wrap{
+        padding: 0px 12px;
+    }
+
+}
+
 </style>

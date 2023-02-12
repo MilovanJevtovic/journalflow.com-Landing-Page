@@ -21,10 +21,13 @@
   export default{
     name:'Navbar',
   }
+
+
   
   </script>
   
   <style scoped>
+
   main{
     background-color: #0B182B;
     height: 80px;

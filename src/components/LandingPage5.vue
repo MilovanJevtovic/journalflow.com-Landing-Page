@@ -2,8 +2,8 @@
     <main>
     <div class="wrap">
         <div class="up">
-            <h1 style="font-size: 65px;">📱</h1>
-            <h1>Manage in One Place</h1>
+            <h1>📱</h1>
+            <h1 class="secondh1">Manage in One Place</h1>
             <h2>on journalflow.com</h2>
         </div>
         <div class="down">
@@ -52,7 +52,7 @@
 
     img{
         width: 300px;
-        border: 7px solid white;
+        border: 7px solid black;
         border-radius: 30px;
     }
 
@@ -97,10 +97,29 @@
         .down{
             display: flex;
             flex-direction: column;
+            margin-top: 0px;
         }
         .right{
             text-align: center;
         }
+
+        h1{
+            font-size: 48px;
+        }
+
+        .secondh1{
+            font-size: 24px;
+        }
+
+        h2{
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+
+        .left{
+            padding: 20px 20px;
+        }
+
       }
 
 </style>

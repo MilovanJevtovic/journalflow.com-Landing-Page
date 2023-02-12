@@ -1,5 +1,6 @@
 <template>
-  <Navbar />
+  <div class="nav">
+  <Navbar/>
   <LandingPage1 />
   <LandingPage2 />
   <LandingPage3 />
@@ -7,6 +8,7 @@
   <LandingPage5 />
   <LandingPage6 />
   <Footer />
+  </div>
 </template>
 
 <script>
@@ -36,4 +38,7 @@
 
 <style>
 
+  .nav{
+  
+  }
 </style>

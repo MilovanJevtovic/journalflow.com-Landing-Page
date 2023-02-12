@@ -4,7 +4,7 @@
             <div class="left">
                 <div class="top">
                     <h1>Keep a journal</h1>
-                    <h1 style="color:#9EA0A6">in your favourite messaging app.</h1>
+                    <h1 style="color:#9EA0A6" class="secondh1">in your favourite messaging app.</h1>
                     <hr align="left">
                 </div>
                 <div class="bottom">
@@ -66,7 +66,7 @@
     }
 
     hr{
-        width: 80px;
+        width: 60px;
         border: 4px solid #11ADB0;
     }
 
@@ -202,10 +202,9 @@
     ul{
         display: none;
     }
-
     .buttons{
         display: flex;
-        
+        flex-wrap: wrap;
     }
     button{
         justify-content: center;
@@ -215,5 +214,31 @@
         display: none;
     }
     
+    h1{
+        font-size: 32px;
+    }
+
+    .secondh1{
+        font-size: 22px;
+    }
+
+    hr{
+        margin: 0px 0px;
+    }
+
+    .bottom{
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    main{
+        height: auto;
+        padding: 0px 12px;
+    }
+
+    .top{
+        margin-top: 40px;
+    }
+
     }
 </style>

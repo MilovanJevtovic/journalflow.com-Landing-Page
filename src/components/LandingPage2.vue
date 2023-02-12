@@ -2,8 +2,8 @@
     <main>
     <div class="wrap">
         <div class="up">
-            <h1 style="font-size: 65px;">✍️</h1>
-            <h1>Write from Anywhere</h1>
+            <h1>✍️</h1>
+            <h1 class="secondh1">Write from Anywhere</h1>
             <h2>Just like chatting with a friend</h2>
         </div>
         <div class="down">
@@ -96,10 +96,31 @@
         .down{
             display: flex;
             flex-direction: column;
+            margin-top: 0px;
         }
         .right{
             text-align: center;
         }
+
+        h1{
+            font-size: 48px;
+        }
+
+        .secondh1{
+            font-size: 24px;
+        }
+
+        h2{
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+
+        .left{
+            padding: 20px 20px;
+        }
+
       }
+
+
 
 </style>

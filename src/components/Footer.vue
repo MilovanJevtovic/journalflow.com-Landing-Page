@@ -91,6 +91,19 @@ p{
         justify-content: center;
     }
 
+    .buttons button{
+        margin: 0px 0px;
+        line-height: 30px;
+    }
+
+    .logo{
+        margin: 20px 0px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
   }
 
 </style>

@@ -22,7 +22,7 @@
                 </div>
             </div>
                 <div class="right" id="right">
-                    <img src="./images/screenshot-email.png" alt="">
+                    <img id="slide" :src="changeImg"  alt="">
                 </div>
             </div>
     </div>
@@ -30,9 +30,24 @@
 </template>
 
 <script>
+
+    let i = 0;
+    let time = 3000;
+        function changeImg(){
+                let slide = ["src/components/images/screenshot-email.png", "src/components/images/screenshot-telegram.png", "src/components/images/screenshot-messenger.png"];
+                document.getElementById('slide').src = slide[i];
+                i = (i+1)%3;
+        }
+    setInterval(changeImg, time);
+    window.onload = changeImg;
+
     export default {
-        name:'LandingPage2'
+        name:'LandingPage2',
+        methods:{
+            changeImg,
+        }
     }
+
 </script>
 
 <style scoped>
